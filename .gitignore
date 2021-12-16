@@ -7,9 +7,9 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 #model
-*.h5
-*.bin
-*.pkl
+# *.h5
+# *.bin
+# *.pkl
 
 # Jupyter Notebook
 .ipynb_checkpoints
