@@ -1,2 +1,4 @@
-# Face-recognition
-Computer Vision Project
+<h1> Demo Mini Project Computer Vision Face-recognition</h1>
+<i>Jester Jz</i>
+
+
