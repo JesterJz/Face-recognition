@@ -28,3 +28,9 @@ env/
 
 #Documents
 test/
+
+#data train and test
+dataset/
+
+#haarcascades face detection
+haarcascades/
