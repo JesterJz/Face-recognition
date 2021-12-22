@@ -7,7 +7,7 @@ import os
 
 face_detector = cv2.CascadeClassifier(
     './haarcascades/haarcascade_frontalface_alt.xml')
-DIR_DATA = './dataset/raw_data/dimaria/image/'
+DIR_DATA = './test/oke'
 
 count = 0
 for filename in os.listdir(DIR_DATA):
@@ -17,7 +17,7 @@ for filename in os.listdir(DIR_DATA):
     img_gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
 
     faces = face_detector.detectMultiScale(img_gray, 1.2, 2)
-    if (len(faces) != ()):
+    if (len(faces) != 0):
         for (x, y, w, h) in faces:  # x la cot , y la dong
             img_face = cv2.resize(
                 img[y + 2: y + h - 2, x + 2: x + w - 2], (64, 64))
