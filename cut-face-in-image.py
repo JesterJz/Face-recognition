@@ -7,7 +7,7 @@ import os
 
 face_detector = cv2.CascadeClassifier(
     './haarcascades/haarcascade_frontalface_alt.xml')
-DIR_DATA = './test/oke'
+DIR_DATA = './dataset/raw_data/dimaria/image/'
 
 count = 0
 for filename in os.listdir(DIR_DATA):
