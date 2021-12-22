@@ -33,4 +33,10 @@ test/
 dataset/
 
 #haarcascades face detection
-haarcascades/
+build_model/
+get_data.py
+test.py
+test1.ipynb
+predict_from_video.py
+predict_from_image.py
+model/
